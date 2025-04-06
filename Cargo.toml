@@ -8,6 +8,8 @@ readme = "README.md"
 license = "Apache-2.0"
 edition = "2024"
 rust-version = "1.86.0"
+keywords = ["conversion", "coherence", "orphan-rules", "from", "traits"]
+categories = ["rust-patterns", "no-std", "no-std::no-alloc"]
 
 [workspace]
 members = ["tests/non-local"]
