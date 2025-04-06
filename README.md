@@ -130,11 +130,11 @@ fn try_convert(_value: Foo) -> Result<Bar, ()> {
 
 ### Local traits
 
-For completeness, the orphan rules allow implementing local `MyFrom` and `MyTryFrom` traits which may then be used to
-with non-local types.
+For completeness, the orphan rules allow implementing local `MyFrom` and `MyTryFrom` traits which may then be used with
+non-local types.
 
-This is not recommended as it requires a significant amount of boilerplate code whilst sharing the same limitations as
-the Fromage approach.
+This approach is not recommended as it requires a significant amount of boilerplate code whilst sharing the same
+limitations as the Fromage approach.
 
 ## License
 
