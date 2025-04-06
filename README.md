@@ -1,6 +1,6 @@
 ![ci](https://github.com/fujiapple852/fromage/actions/workflows/ci.yml/badge.svg)
-[![Documentation](https://docs.rs/fromage/badge.svg)](https://docs.rs/fromage/0.1.0)
-[![Crate](https://img.shields.io/crates/v/fromage.svg)](https://crates.io/crates/fromage/0.1.0)
+[![Documentation](https://docs.rs/fromage/badge.svg)](https://docs.rs/fromage/0.1.1)
+[![Crate](https://img.shields.io/crates/v/fromage.svg)](https://crates.io/crates/fromage/0.1.1)
 
 # Fromage 🧀
 
