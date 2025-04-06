@@ -74,7 +74,7 @@ with the standard library's `From` and `TryFrom` traits.
 The `Fromage` and `TryFromage` traits defined in this crate are distinct from the standard library's `From` and
 `TryFrom` traits and are not interchangeable. Therefore, if a crate uses the standard library's `From` and `TryFrom`
 traits in its public API, you cannot use the `Fromage` and `TryFromage` traits to implement conversions for the
-types required by crate.
+types required by that crate.
 
 For example, if a crate exposes the following public API then you cannot use an `impl Fromage<Foo> for Bar` to
 implement the conversion.
